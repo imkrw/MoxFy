@@ -549,7 +549,7 @@ def main(page: Page):
         page.update()
 
     if is_internet_available():
-        from credentials import cursor, collection
+        from db.config import cursor, collection
 
         user_count = 0
         for document in cursor:
