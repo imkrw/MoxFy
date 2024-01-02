@@ -5,6 +5,7 @@ A project that provides a collection of tools for working with PDF files. It off
 <image src="media/Main.PNG">
 
 # Features:
+
 - Compression: Shrink PDF file sizes while maintaining content quality, perfect for easy sharing and storage.
 - Conversion: Convert PDFs to various formats, extracting content effortlessly.
 - Decryption: Remove password protection and encryption from PDFs hassle-free.
@@ -17,26 +18,23 @@ A project that provides a collection of tools for working with PDF files. It off
 - Management: Efficiently delete, rearrange, and organize pages.
 
 # Installation:
+
 ```bash
-$ pip install -r requirements.txt or manual
+$ pip install -r requirements.txt
 ```
 
 # Configuration:
+
 - Moxfy_adminPanel must put your own database details (.env file by default) in credentials.py (MongoDB)
 - Moxfy_with_db must put your own database details (.env file by default) in db/config.py (MongoDB)
 - Moxfy_with_db must put your own discord webhook api details (.env file by default) in pages/report/page.py
 - Moxfy_without_db must put your own discord webhook api details (.env file by default) in pages/report/page.py
 
 # Packaging:
-- https://flet.dev/ 
-- https://pub.dev/packages/serious_python 
-and other tools ex. auto-py-to-exe, pyinstaller
+
+- https://flet.dev/
 
 # Tested on:
+
 - Python version: 3.12.0
 - Windows 10 Version 22H2 (OS Build 19045.3570)
-
-
-
-
-
