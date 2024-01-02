@@ -1,4 +1,4 @@
 certifi==2023.7.22
-flet==0.13.0
+flet==0.18.0
 pymongo==4.5.0
 python-dotenv==1.0.0
